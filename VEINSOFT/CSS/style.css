@@ -1,0 +1,90 @@
+
+*{
+margin: 0; 
+padding: 0;
+box-sizing : border-box;
+}
+
+body{
+    font-family: Arial;
+    background-size: cover;
+}
+
+.form-login  {
+    width: 400px;
+    height: 430px;
+    background-color: rgb(241, 246, 250);
+    margin: auto;
+    margin-top: 95px;
+    box-shadow: 7px 13px 37px #054fa8;
+    padding: 20px 30px;
+    border-top: 4px solid #070c14;
+    color: rgb(16, 17, 39);
+    border-radius: 3%;
+}
+
+.form-login h1{
+    margin: 0;
+    text-align: center;
+    height: 35px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls{
+    width: 100%;
+    border: 1px solid #03205a;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background-color: rgb(111, 187, 250);
+    font-size: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons{
+    width: 105%;
+    height: 40px;
+    background-color: rgb(94, 177, 250);
+    border: none;
+    color: rgb(10, 11, 14);
+    margin-bottom: 10px;
+}
+
+.ingres{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(94, 177, 250);
+    border: none;
+    color: rgb(18, 19, 20);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-family:   arial;
+    font-size: 16px;
+    border-bottom: #070c14;
+}
+.ingres:hover{
+    background: linear-gradient(rgb(160, 208, 245),rgb(78, 139, 209),rgb(34, 36, 182));
+    transition: 0.2s;
+}
+.controls:hover{
+    background: rgb(227, 235, 247);
+    transition: 0.2s;
+}
+
+.form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a{
+    color: rgb(30, 3, 148);
+    text-decoration: none;
+    font-size: 14px; 
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
